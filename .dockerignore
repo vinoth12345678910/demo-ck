@@ -1,0 +1,35 @@
+# ============================================
+# DOCKERIGNORE — what NOT to copy into Docker
+# ============================================
+
+# Dependencies (installed fresh inside container)
+node_modules
+
+# Next.js build output
+.next
+
+# Git
+.git
+.gitignore
+
+# Local environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and OS files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation (not needed in image)
+README.md
+AGENTS.md
+CLAUDE.md
+
+# npm
+npm-debug.log*
